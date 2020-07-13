@@ -1,0 +1,109 @@
+body {
+  font-size: 16px;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:gray;
+  border-radius: 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+
+}
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-left:-70px;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top:-40px; 
+}
+
+/*****************************************************************/
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+ 
+  
+  .menu-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+   .item{
+    position:relative;
+    background-color:gray;
+    margin:5px;
+    padding:15px;
+  }
+  
+  .item p{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 100%;
+    font-weight: bold;
+  }
+  
+  .item-title{
+    position:relative;
+    text-align: center;
+
+  }
+  .item-title h3{
+   font-weight: bold;
+  }
+  
+
+  /*------ Desktop ------*/
+  @media (min-width: 992px){
+    
+  }
+  
+  
+  /*------ Tablet ------*/
+  @media (min-width: 768px) and (max-width: 991px){
+    .col-sm-tablet{
+     width: 100%;
+     float: left;
+   }
+  }
+  
+  
+  /*------ Mobile ------*/
+  @media (max-width: 767px){
+   
+ .navbar-brand h1 {
+  color: black;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-left:0;
+  } 
+  #collapsable-nav li { /* Collapsed nav menu text */
+    font-size: 1.6em;
+    background-color: white;
+    text-align: center;
+    }
+  #l1,#l2{ /* border */
+    border-bottom: 2px solid black;
+    }
+  #collapsable-nav{
+    background-color: white;
+  }
+}
